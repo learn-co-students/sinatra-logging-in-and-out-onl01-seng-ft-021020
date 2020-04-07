@@ -1,5 +1,4 @@
-#place holder thingy thing idk just know i need one
 
 class User < ActiveRecord::Base
-
+ validates_presence_of :username, :password, :balance
 end
